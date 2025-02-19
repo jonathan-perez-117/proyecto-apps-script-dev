@@ -11,18 +11,18 @@ function FormularioRegistro(){
                 onFinish={guardarFormulario}
                 layout="vertical">
                 <Item name="nombreCompleto" label="Nombre completo" rules={[
-                    {required: true, message: "Este campo no debe de quedar vacio"}
+                    {required: true, message: "Este campo no debe permanecer vacio"}
                     ]}>
                     <Input />
                 </Item>
                 <Item name="correo" label="Correo" rules={[
                     {type: "email", message: "Los campos no coinciden"},
-                    {required: true, message: "Este campo no debe de quedar vacio"}
+                    {required: true, message: "Este campo no debe permanecer vacio"}
                     ]}>
                     <Input />
                 </Item>
                 <Item name="contraseña" label="Contraseña" rules={[
-                    {required: true, message: "Este campo no debe de quedar vacio"}
+                    {required: true, message: "Este campo no debe permanecer vacio"}
                     ]}>
                     <Password />
                 </Item>
